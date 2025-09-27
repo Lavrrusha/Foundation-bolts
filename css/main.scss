@@ -1,0 +1,8 @@
+// компоненты
+@use './components/header/header-contacts';
+@use './components/header/header-logotype';
+@use './components/header/header-navigation';
+
+// СЕКЦИИ подключаем ПОСЛЕ компонентов, что бы при переопределении стилей компонента в секции каскад работал правильно
+// СЕКЦИИ пишутся КАПСОМ, что бы было наглядно и удобно при чтении КОДА
+@use './SECTIONS/HEADER';
