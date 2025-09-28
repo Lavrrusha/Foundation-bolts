@@ -15,7 +15,7 @@
 }
 :root {
   --font-family: "GothamPro", sans-serif;
-  --color-main-text: #1E1E1E;
+  --graphite: #1E1E1E;
 }
 
 body {
@@ -31,7 +31,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.2;
-  color: var(--color-main-text);
+  color: var(--graphite);
 }
 
 .title {
@@ -44,7 +44,7 @@ body {
 }
 .title--mod {
   font-weight: 700;
-  color: var(--color-main-text);
+  color: var(--graphite);
 }
 @media (max-width: 767px) {
   .title {
@@ -67,7 +67,7 @@ body {
   color: #fff;
 }
 .subtitle--mod {
-  color: var(--color-main-text);
+  color: var(--graphite);
 }
 @media (max-width: 767px) {
   .subtitle {
