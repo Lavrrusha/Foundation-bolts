@@ -1,6 +1,7 @@
 @use './base/fonts';
 @use './base/root';
 @use './base/global';
+@use './base/support';
 
 // компоненты
 @use './components/header/header-contacts';
@@ -9,6 +10,10 @@
 
 @use './components/titels/title';
 @use './components/titels/subtitle';
+
+
+@use './components/wrapper/wrapper';
+
 
 
 // СЕКЦИИ подключаем ПОСЛЕ компонентов, что бы при переопределении стилей компонента в секции каскад работал правильно

@@ -16,6 +16,7 @@
 :root {
   --font-family: "GothamPro", sans-serif;
   --graphite: #1E1E1E;
+  --white: #ffffff;
 }
 
 body {
@@ -34,16 +35,33 @@ body {
   color: var(--graphite);
 }
 
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.visually-hidden:not(:focus),
+input[type=checkbox].visually-hidden,
+input[type=radio].visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  white-space: nowrap;
+  border: 0;
+  clip-path: inset(100%);
+}
+
 .title {
   margin: 0;
   padding: 0;
   font-size: 30px;
-  font-weight: 400;
-  margin-bottom: 10px;
-  color: #fff;
-}
-.title--mod {
   font-weight: 700;
+  margin-bottom: 10px;
   color: var(--graphite);
 }
 @media (max-width: 767px) {
@@ -56,6 +74,9 @@ body {
     font-size: 16px;
     margin-bottom: 5px;
   }
+}
+.title.--mod-col {
+  color: inherit;
 }
 
 .subtitle {
@@ -78,4 +99,39 @@ body {
   .subtitle {
     margin-bottom: 18px;
   }
+}
+
+.wrapper {
+  max-width: 1440px;
+  padding-inline: 48px;
+  margin: 0 auto;
+}
+
+.HEADER {
+  background-color: #000;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.HEADER__TOP {
+  display: grid;
+  gap: 0;
+  width: 100%;
+  margin-bottom: 32px;
+}
+.HEADER__BOTTOM-GRID {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(3, auto);
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
+}
+.HEADER__BOTTOM-GRID__BOTTOM-COL.-LEFT {
+  margin-right: auto;
+}
+.HEADER__BOTTOM-GRID__BOTTOM-COL.-RIGHT {
+  margin-left: auto;
 }/*# sourceMappingURL=main.css.map */

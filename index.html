@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+
+
   <!-- SEO  -->
   <title>ООО «ПК ТЕХНОМОНТАЖ»: Производство и продажа фундаментных болтов, анкерных болтов по ГОСТ и Вашим чертежам в
     Воронеже</title>
@@ -12,10 +15,6 @@
   <!-- Шрифты  -->
 
   <!-- Стили  -->
-  <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png" />
-
   <link rel="stylesheet" href="./css/main.css">
 </head>
 
@@ -24,134 +23,160 @@
 
   <!-- компонент Шапка -->
   <header class="HEADER">
+    <div class="wrapper">
 
-    <div class="HEADER__TOP">
-      <!-- компонент Навигация -->
-      <nav class="header-navigation">
-        <ul class="header-navigation__list">
+      <div class="HEADER__TOP">
 
-          <li class="header-navigation__item">
+        <!-- компонент Навигация -->
+        <nav class="header-navigation">
+          <ul class="header-navigation__list list-reset">
 
-            <!-- Вложенный список  -->
-            <ul class="header-navigation__sub-list">
-              <li class="header-navigation__sub-item">
-                <a class="header-navigation__sub-link" href="#">Главная</a>
-              </li>
-              <li class="header-navigation__sub-item">
-                <a class="header-navigation__sub-link" href="#">Схема работы</a>
-              </li>
-              <li class="header-navigation__sub-item">
-                <a class="header-navigation__sub-link" href="#">Продукция</a>
-              </li>
-            </ul>
-          </li>
+            <li class="header-navigation__item">
 
-          <li class="header-navigation__item">
-            <!-- Вложенный список  -->
-            <ul class="header-navigation__sub-list">
-              <li class="header-navigation__sub-item">
-                <a class="header-navigation__sub-link" href="#">Как заказать</a>
-              </li>
-              <li class="header-navigation__sub-item">
-                <a class="header-navigation__sub-link" href="#">О нас</a>
-              </li>
-              <li class="header-navigation__sub-item">
-                <a class="header-navigation__sub-link" href="#">Контакты</a>
-              </li>
-            </ul>
+              <!-- Вложенный список  -->
+              <ul class="header-navigation__sub-list list-reset">
+                <li class="header-navigation__sub-item">
+                  <a class="header-navigation__sub-link" href="#">Главная</a>
+                </li>
+                <li class="header-navigation__sub-item">
+                  <a class="header-navigation__sub-link" href="#">Схема работы</a>
+                </li>
+                <li class="header-navigation__sub-item">
+                  <a class="header-navigation__sub-link" href="#">Продукция</a>
+                </li>
+              </ul>
+            </li>
 
-          </li>
+            <li class="header-navigation__item">
+              <!-- Вложенный список  -->
+              <ul class="header-navigation__sub-list list-reset">
+                <li class="header-navigation__sub-item">
+                  <a class="header-navigation__sub-link" href="#">Как заказать</a>
+                </li>
+                <li class="header-navigation__sub-item">
+                  <a class="header-navigation__sub-link" href="#">О нас</a>
+                </li>
+                <li class="header-navigation__sub-item">
+                  <a class="header-navigation__sub-link" href="#">Контакты</a>
+                </li>
+              </ul>
 
-        </ul>
-      </nav>
-    </div>
+            </li>
 
-    <div class="HEADER__BOTTOM">
-
-      <!-- компонент Контакт в шапке  -->
-      <div class="header-contacts">
-        <span class="header-contacts__icon">
-          <img src="./img/phone.png" alt="#">
-        </span>
-        <a href="tel:+84732022555" class="header-contacts__phone">8 (473) 202-25-55</a>
-        <a href="#contacts" class="header-contacts__link">Заказать звонок</a>
+          </ul>
+        </nav>
       </div>
 
-      <!-- компонент Логотип в шапке  -->
-      <a class="header-logotype">
-        <div class="header-logotype__image">
-          <img src="./img/screw-side-view.png" alt="#">
-          <p class="header-logotype__text">Фундаментные болты <span>от производителя</span></p>
+      <div class="HEADER__BOTTOM">
+
+        <div class="HEADER__BOTTOM-GRID">
+          <div class="HEADER-BOTTOM__COL -LEFT">
+            <!-- компонент Контакт в шапке  -->
+            <div class="header-contacts">
+              <span class="header-contacts__icon">
+                <img src="./img/phone.png" alt="#">
+              </span>
+              <a href="tel:+84732022555" class="header-contacts__phone">8 (473) 202-25-55</a>
+              <a href="#contacts" class="header-contacts__link">Заказать звонок</a>
+            </div>
+          </div>
+          <div class="HEADER-BOTTOM__COL -CENTER">
+            <!-- компонент Логотип в шапке  -->
+            <a class="header-logotype">
+              <div class="header-logotype__image">
+                <img src="./img/screw-side-view.png" alt="#">
+                <p class="header-logotype__text">Фундаментные болты <span>от производителя</span></p>
+              </div>
+            </a>
+          </div>
+          <div class="HEADER-BOTTOM__COL -RIGHT">
+            <!-- компонент Контакт в шапке  -->
+            <div class="header-contacts">
+              <span class="header-contacts__icon">
+                <img src="./img/location.png" alt="#">
+              </span>
+              <a href="#delivery" class="header-contacts__link">Быстрая доставка</a>
+            </div>
+          </div>
         </div>
-      </a>
 
-      <!-- компонент Контакт в шапке  -->
-      <div class="header-contacts">
-        <span class="header-contacts__icon">
-          <img src="./img/location.png" alt="#">
-        </span>
-        <a href="#delivery" class="header-contacts__link">Быстрая доставка</a>
+
+
+
+
+
+
       </div>
-
     </div>
-
   </header>
 
   <main>
 
     <!-- первый экран -->
     <section class="first-screen">
+      <div class="wrapper">
+        <h1 class="visually-hidden">Производство и продажа фундаментных болтов по ГОСТ и Вашим чертежам в Воронеже</h1>
 
-      <h1 class="visually-hidden">Производство и продажа фундаментных болтов по ГОСТ и Вашим чертежам в Воронеже</h1>
-
-      <span class="first-screen__gost">гост 24379.1-80 (2012)</span>
-
+        <span class="first-screen__gost">гост 24379.1-80 (2012)</span>
+      </div>
     </section>
 
 
     <!-- как мы работаем -->
     <section class="how-we-work">
-      <h2 class="title title--mod">Как мы работаем</h2>
-      <p class="subtitle subtitle--mod">Как наша продукция попадет к Вам</p>
+      <div class="wrapper">
+        <h2 class="title">Как мы работаем</h2>
+        <p class="subtitle sub">Как наша продукция попадет к Вам</p>
+      </div>
     </section>
 
 
     <!-- типы болтов -->
     <section class="bolt-types">
-      <h2 class="title">Фундаментные болты</h2>
-      <p class="subtitle">Производим все типы и исполнения</p>
+      <div class="wrapper">
+        <h2 class="title">Фундаментные болты</h2>
+        <p class="subtitle">Производим все типы и исполнения</p>
+      </div>
     </section>
 
 
     <!-- форма -->
 
     <section class="form" id="location">
-      <h2 class="title">Остались вопросы?</h2>
-      <p class="subtitle">Звоните - мы поможем!</p>
-      <form class="" action=""></form>
+      <div class="wrapper">
+        <h2 class="title">Остались вопросы?</h2>
+        <p class="subtitle">Звоните - мы поможем!</p>
+        <form class="" action=""></form>
+      </div>
     </section>
 
 
 
     <!-- Преимущества -->
     <section class="benefit">
-      <h2 class="title title--mod">6 Причин работать с нами</h2>
-      <p class="subtitle subtitle--mod">Почему наши клиенты нам доверяют</p>
+      <div class="wrapper">
+        <h2 class="title">6 Причин работать с нами</h2>
+        <p class="subtitle sub">Почему наши клиенты нам доверяют</p>
+      </div>
     </section>
 
 
     <!-- о нас -->
     <section class="about-us">
-      <h2 class="title">ООО «ПК ТЕХНОМОНТАЖ»</h2>
-      <p class="subtitle">Немного о нас</p>
+      <div class="wrapper">
+        <h2 class="title">ООО «ПК ТЕХНОМОНТАЖ»</h2>
+        <p class="subtitle">Немного о нас</p>
+      </div>
 
     </section>
 
     <!-- форма -->
     <section class="form" id="contacts">
-      <h2 class="title">Остались вопросы?</h2>
-      <p class="subtitle">Звоните - мы поможем!</p>
-      <form class="" action=""></form>
+      <div class="wrapper">
+        <h2 class="title">Остались вопросы?</h2>
+        <p class="subtitle">Звоните - мы поможем!</p>
+        <form class="" action=""></form>
+      </div>
     </section>
 
     <!-- карта -->
@@ -165,19 +190,25 @@
 
   <!-- подвал -->
   <footer class="footer">
-
+    <div class="wrapper">
+      <!-- подвал  -->
+    </div>
   </footer>
+
+  <script src="./js/main.js"></script>
+  <!-- Ниже вставлен скрипт для отладки кода. ОБЯЗАТЕЛЬНО УДАЛИТЬ НА ПРОДАКШЕНЕ!!!  -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.addEventListener('click', e => console.log(e.target));
+    });
+  </script>
 
 </body>
 
-<script src="./js/main.js"></script>
 
 
-<!-- Ниже вставлен скрипт для отладки кода. ОБЯЗАТЕЛЬНО УДАЛИТЬ НА ПРОДАКШЕНЕ!!!  -->
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    document.addEventListener('click', e => console.log(e.target));
-  });
-</script>
+
+
+
 
 </html>

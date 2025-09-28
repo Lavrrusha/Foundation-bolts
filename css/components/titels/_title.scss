@@ -2,23 +2,20 @@
   margin: 0;
   padding: 0;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 700;
   margin-bottom: 10px;
-  color: #fff;
-
-  &--mod {
-    font-weight: 700;
-    color: var(--graphite);
-  }
+  color: var(--graphite);
 
   @media (max-width: 767px) {
     margin-bottom: 8px;
   }
 
-   @media (max-width: 647px) {
+  @media (max-width: 647px) {
     font-size: 16px;
     margin-bottom: 5px;
   }
+  // делает цвет заголовка наследованным от родительских правил
+  &.--mod-col {
+    color: inherit;
+  }
 }
-
-
