@@ -6,10 +6,12 @@ body {
   max-width: 100%;
   width: 100%;
   font-weight: 400;
-  // остальное напиши сама
 
-  // font-family: var(--font-family);
-  // background-color: ;
-  // font-size: ;
-  // color: ;
+  font-family: var(--font-family);
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--color-main-text);
+   background-color: aqua;
 }

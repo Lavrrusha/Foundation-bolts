@@ -1,3 +1,23 @@
+/* Inter Regular */
+@font-face {
+  font-display: swap;
+  font-family: "GothamPro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/GothamPro/GothamPro.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "GothamPro";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts//GothamPro/GothamPro-Bold.woff2") format("woff2");
+}
+:root {
+  --font-family: "GothamPro", sans-serif;
+  --color-main-text: #1E1E1E;
+}
+
 body {
   margin: 0;
   min-width: 375px;
@@ -6,4 +26,57 @@ body {
   max-width: 100%;
   width: 100%;
   font-weight: 400;
+  font-family: var(--font-family);
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--color-main-text);
+  background-color: aqua;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.title--mod {
+  font-weight: 700;
+  color: var(--color-main-text);
+}
+@media (max-width: 767px) {
+  .title {
+    margin-bottom: 8px;
+  }
+}
+@media (max-width: 647px) {
+  .title {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+}
+
+.subtitle {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 36px;
+  color: #fff;
+}
+.subtitle--mod {
+  color: var(--color-main-text);
+}
+@media (max-width: 767px) {
+  .subtitle {
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 374px) {
+  .subtitle {
+    margin-bottom: 18px;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -1,3 +1,20 @@
 .subtitle {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 36px;
+  color: #fff;
 
+  &--mod {
+    color: var(--color-main-text);
+  }
+
+  @media (max-width: 767px) {
+    margin-bottom: 24px;
+  }
+
+  @media (max-width: 374px) {
+    margin-bottom: 18px;
+  }
 }
