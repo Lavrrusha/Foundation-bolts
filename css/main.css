@@ -62,6 +62,10 @@ input[type=radio].visually-hidden {
   text-align: center;
 }
 
+.header-navigation__sub-link {
+  text-decoration: none;
+}
+
 .title {
   margin: 0;
   padding: 0;
