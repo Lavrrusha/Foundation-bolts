@@ -17,6 +17,17 @@
   &__BOTTOM {
 
   }
+<<<<<<< Updated upstream
+=======
+  
+  &__BOTTOM-GRID {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(3, auto);
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
+>>>>>>> Stashed changes
 
   &__BOTTOM-GRID {
     display: grid;
