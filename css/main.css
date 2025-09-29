@@ -57,6 +57,7 @@ input[type=radio].visually-hidden {
 }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 .header-logotype {
   display: flex;
   align-items: center;
@@ -81,12 +82,17 @@ input[type=radio].visually-hidden {
   text-transform: uppercase;
   color: var(--white);
 =======
+=======
+>>>>>>> Stashed changes
 .header-navigation__list {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
 }
 .header-navigation__sub-link {
   text-decoration: none;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }
 
