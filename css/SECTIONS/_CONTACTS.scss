@@ -1,0 +1,62 @@
+.CONTACTS {
+  position: relative;
+
+
+  &__BODY {
+    min-height: 400px;
+    position: relative;
+    @media (max-width: 767px) {
+      min-height: initial;
+      background-color: #ffe52c;
+    }
+    .wrapper {
+      position: relative;
+      height: 100%;
+    }
+  }
+  &__MAP {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    @media (max-width: 767px) {
+      position: relative;
+      top: initial;
+      right: initial;
+      bottom: initial;
+      left: initial;
+      height: 300px;
+    }
+    iframe {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .contacts-card {
+    position: absolute;
+    bottom: -90px;
+    right: 0;
+    z-index: 2;
+    @media (max-width: 1023px) {
+      position: absolute;
+      bottom: 0;
+      right: initial;
+      left: 0;
+      top: 0;
+    }
+    @media (max-width: 767px) {
+      position: relative;
+      bottom: initial;
+      right: initial;
+      left: initial;
+      top: initial;
+      width: 100%;
+      height: max-content;
+      max-width: 100%;
+      padding-inline: 0;
+    }
+  }
+}

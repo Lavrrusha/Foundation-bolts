@@ -14,8 +14,10 @@
 
 @use './components/wrapper/wrapper';
 
-
+@use './components/contacts/contacts-card';
+@use './components/contacts/contacts-card-link';
 
 // СЕКЦИИ подключаем ПОСЛЕ компонентов, что бы при переопределении стилей компонента в секции каскад работал правильно
 // СЕКЦИИ пишутся КАПСОМ, что бы было наглядно и удобно при чтении КОДА
 @use './SECTIONS/HEADER';
+@use './SECTIONS/CONTACTS';

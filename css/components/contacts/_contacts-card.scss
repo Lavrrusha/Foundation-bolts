@@ -1,0 +1,42 @@
+.contacts-card {
+  background-color: #ffe52c;
+  color: #1e1e1e;
+  padding: 32px 48px;
+  max-width: max-content;
+  text-align: center;
+  @media (max-width: 1023px) {
+    padding: 32px 48px;
+    text-align: left;
+  }
+  &__title {
+    display: block;
+    margin-top: 0;
+    padding-bottom: 12px;
+    position: relative;
+    @media (max-width: 767px) {
+      text-align: center;
+    }
+    &:after {
+      content: "";
+      width: 50px;
+      height: 1px;
+      background-color: #50be68;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      display: block;
+      margin-left: -25px;
+    }
+  }
+  &__link-list {
+    @media (max-width: 767px) {
+
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      max-width: max-content;
+      margin: 0 auto;
+      gap: 32px;
+       margin-top: 32px;
+    }
+  }
+}
