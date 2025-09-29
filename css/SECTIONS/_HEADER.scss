@@ -1,35 +1,39 @@
 .HEADER {
-  background-color: #000;
+  background-color: var(--graphite);
+
   color: #fff;
   position: fixed;
   width: 100%;
   left: 0;
   top: 0;
+
   &__TOP {
     display: grid;
     gap: 0;
     width: 100%;
     margin-bottom: 32px;
   }
-  
+
   &__BOTTOM {
 
   }
-  &__BOTTOM-GRID {
-  display: grid;
-  gap: 32px;
-  grid-template-columns: repeat(3, auto);
-  width: 100%;
-  max-width: 100%;
-  align-items: center;
 
-  &__BOTTOM-COL {
-    &.-LEFT {
-      margin-right: auto;
-    }
-    &.-RIGHT {
-      margin-left: auto;
+  &__BOTTOM-GRID {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(3, auto);
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+
+    &__BOTTOM-COL {
+      &.-LEFT {
+        margin-right: auto;
+      }
+
+      &.-RIGHT {
+        margin-left: auto;
+      }
     }
   }
-}
 }
