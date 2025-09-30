@@ -1,0 +1,24 @@
+.section {
+  padding-top: 55px;
+  padding-bottom: 55px;
+  @media (max-width: 767px) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  &.-color-mod {
+    background-color: #50BE68;
+    color: #ffffff;
+
+    .title {
+      color: inherit;
+    }
+  }
+  &.-padding-mod {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    @media (max-width: 767px) {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  }
+}

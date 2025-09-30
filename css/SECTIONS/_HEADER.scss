@@ -1,22 +1,24 @@
 .HEADER {
   background-color: var(--graphite);
-
   color: var(--white);
   position: fixed;
+  max-width: 100%;
   width: 100%;
-  left: 0;
   top: 0;
+  left: 0;
+  z-index: 99;
 
   &__TOP {
     display: grid;
     gap: 0;
     width: 100%;
-    margin-bottom: 32px;
+    // margin-bottom: 32px;
   }
 
-
   &__BOTTOM {
-    padding-bottom: 50px;
+    padding-bottom: 24px;
+    margin-top: -33px;
+    padding-top: 12px;
   }
 
   &__BOTTOM-GRID {

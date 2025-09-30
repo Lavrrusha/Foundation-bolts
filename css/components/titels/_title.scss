@@ -5,6 +5,9 @@
   font-weight: 700;
   margin-bottom: 10px;
   color: var(--graphite);
+  &.-color-mod {
+    color: inherit;
+  }
 
   @media (max-width: 767px) {
     margin-bottom: 8px;

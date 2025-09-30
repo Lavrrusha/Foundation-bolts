@@ -1,7 +1,10 @@
 .header-contacts {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  column-gap: 13px;
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 13px;
+    align-items: center;
+  }
 
   &__col {
     display: flex;
@@ -14,28 +17,33 @@
     height: 44px;
   }
 
-  &__phone {
-    font-size: 16px;
+  &__link {
+    font-size: 14px;
     color: var(--white);
-    text-decoration: none;
-
     &:hover {
-      transition: all .4s ease;
+      transition: all 0.4s ease;
       text-decoration: underline;
       text-decoration-skip-ink: none;
       color: var(--yellow);
     }
-  }
-
-  &__link {
-    font-size: 12px;
-    color: var(--white);
-
-    &:hover {
-      transition: all .4s ease;
-      text-decoration: underline;
-      text-decoration-skip-ink: none;
-      color: var(--yellow);
+    & + & {
+      margin-top: 6px;
+    }
+    &.-phone {
+      font-size: 16px;
+      text-decoration: none;
+      font-weight: 600;
+      &:hover {
+        transition: all 0.4s ease;
+        text-decoration: none;
+      }
+    }
+    &.-mod-size {
+      font-size: 16px;
+      text-decoration: none;
+      &:hover {
+        transition: all 0.4s ease;
+      }
     }
   }
 
@@ -45,12 +53,10 @@
     text-decoration: none;
 
     &:hover {
-      transition: all .4s ease;
+      transition: all 0.4s ease;
       text-decoration: underline;
       text-decoration-skip-ink: none;
       color: var(--yellow);
     }
-
   }
-
 }

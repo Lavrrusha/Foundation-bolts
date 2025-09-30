@@ -5,6 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="date=no">
+  <meta name="format-detection" content="address=no">
+  <meta name="format-detection" content="email=no">
+
   <link rel="icon" href="./favicon.ico" type="image/x-icon">
 
 
@@ -28,7 +33,7 @@
 
       <div class="HEADER__TOP">
 
-        <!-- компонент Навигация -->
+        <!-- Навигация -->
         <nav class="header-navigation">
           <ul class="header-navigation__list list-reset">
 
@@ -49,6 +54,7 @@
             </li>
 
             <li class="header-navigation__item">
+
               <!-- Вложенный список  -->
               <ul class="header-navigation__sub-list list-reset">
                 <li class="header-navigation__sub-item">
@@ -71,34 +77,51 @@
       <div class="HEADER__BOTTOM">
 
         <div class="HEADER__BOTTOM-GRID">
-          <div class="HEADER-BOTTOM__COL -LEFT">
+          <div class="HEADER__BOTTOM-COL -LEFT">
+
             <!-- компонент Контакт в шапке  -->
             <div class="header-contacts">
-              <span class="header-contacts__icon">
-                <img src="./img/phone.png" alt="#" >
-              </span>
-              <div class="header-contacts__col">
-                <a href="tel:+84732022555" class="header-contacts__phone">8 (473) 202-25-55</a>
-                <a href="#contacts" class="header-contacts__link">Заказать звонок</a>
+              <div class="header-contacts__grid">
+                <div class="header-contacts__col -icon">
+                  <span class="header-contacts__icon">
+                    <img src="./img/phone.png" alt="#">
+                  </span>
+                </div>
+                <div class="header-contacts__col -text">
+                  <a class="header-contacts__link -phone" href="tel:+84732022555">8 (473) 202-25-55</a>
+                  <a class="header-contacts__link" href="#contacts">Заказать звонок</a>
+                </div>
               </div>
+
             </div>
           </div>
-          <div class="HEADER-BOTTOM__COL -CENTER">
+          <div class="HEADER__BOTTOM-COL -CENTER">
+
             <!-- компонент Логотип в шапке  -->
-            <a class="header-logotype">
-              <div class="header-logotype__image">
+            <div class="header-logotype">
+
+            </div>
+            <a class="header-logotype__link" href="#">
+              <span class="header-logotype__image">
                 <img src="./img/screw-side-view.png" alt="#">
-                <p class="header-logotype__text">Фундаментные болты <span>от производителя</span></p>
-              </div>
+              </span>
+              <p class="header-logotype__text">Фундаментные болты <span>от производителя</span></p>
             </a>
           </div>
-          <div class="HEADER-BOTTOM__COL -RIGHT">
+          <div class="HEADER__BOTTOM-COL -RIGHT">
             <!-- компонент Контакт в шапке  -->
             <div class="header-contacts">
-              <span class="header-contacts__icon">
-                <img src="./img/location.png" alt="#">
-              </span>
-              <a href="#delivery" class="header-contacts__delivery">Быстрая доставка</a>
+              <div class="header-contacts__grid">
+                <div class="header-contacts__col -icon">
+                  <span class="header-contacts__icon">
+                    <img src="./img/location.png" alt="#">
+                  </span>
+                </div>
+                <div class="header-contacts__col -text">
+                  <a href="#delivery" class="header-contacts__link -mod-size">Быстрая доставка</a>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
@@ -106,20 +129,20 @@
     </div>
   </header>
 
-  <main>
+  <main class="main">
 
     <!-- первый экран -->
-    <section class="first-screen">
+    <section class="FIRST-SCREEN section">
       <div class="wrapper">
         <h1 class="visually-hidden">Производство и продажа фундаментных болтов по ГОСТ и Вашим чертежам в Воронеже</h1>
 
-        <span class="first-screen__gost">гост 24379.1-80 (2012)</span>
+        <span class="first-screen__text">гост 24379.1-80 (2012)</span>
       </div>
     </section>
 
 
     <!-- как мы работаем -->
-    <section class="how-we-work">
+    <section class="HOW-WE-WORK section">
       <div class="wrapper">
         <h2 class="title">Как мы работаем</h2>
         <p class="subtitle sub">Как наша продукция попадет к Вам</p>
@@ -128,7 +151,7 @@
 
 
     <!-- типы болтов -->
-    <section class="bolt-types">
+    <section class="CATALOG-PREVIEWS section">
       <div class="wrapper">
         <h2 class="title">Фундаментные болты</h2>
         <p class="subtitle">Производим все типы и исполнения</p>
@@ -138,10 +161,10 @@
 
     <!-- форма -->
 
-    <section class="form" id="location">
+    <section class="CONTACT-US section  -color-mod -padding-mod" id="location">
       <div class="wrapper">
-        <h2 class="title">Остались вопросы?</h2>
-        <p class="subtitle">Звоните - мы поможем!</p>
+        <h2 class="title">Как сделать заказ?</h2>
+        <p class="subtitle">Очень просто</p>
         <form class="" action=""></form>
       </div>
     </section>
@@ -149,7 +172,7 @@
 
 
     <!-- Преимущества -->
-    <section class="benefit">
+    <section class="BENEFITS section">
       <div class="wrapper">
         <h2 class="title">6 Причин работать с нами</h2>
         <p class="subtitle sub">Почему наши клиенты нам доверяют</p>
@@ -158,7 +181,7 @@
 
 
     <!-- о нас -->
-    <section class="about-us">
+    <section class="ABOUT-US section">
       <div class="wrapper">
         <h2 class="title">ООО «ПК ТЕХНОМОНТАЖ»</h2>
         <p class="subtitle">Немного о нас</p>
@@ -167,16 +190,16 @@
     </section>
 
     <!-- форма -->
-    <section class="form" id="contacts">
+    <section class="CONTACT-US section -color-mod -padding-mod" id="contacts">
       <div class="wrapper">
-        <h2 class="title">Остались вопросы?</h2>
+        <h2 class="title -color-mod">Остались вопросы?</h2>
         <p class="subtitle">Звоните - мы поможем!</p>
         <form class="" action=""></form>
       </div>
     </section>
 
     <!-- карта -->
-    <section class="CONTACTS">
+    <section class="CONTACTS section">
       <div class="CONTACTS__BODY">
         <div class="wrapper">
 
@@ -211,8 +234,8 @@
     <div class="wrapper">
       <!-- подвал  -->
 
-      <div class="FOOTER-GRID">
-        <div class="FOOTER-GRID__COL -RIGHT">
+      <div class="FOOTER__GRID">
+        <div class="FOOTER__GRID-COL -RIGHT">
           <!-- компонент Адресс в подвале -->
           <div class="footer-address">
             <p class="footer-address__label">Юридический, фактический и почтовый адрес:</p>
@@ -224,7 +247,7 @@
           </div>
         </div>
 
-        <div class="FOOTER-GRID__COL -CENTER">
+        <div class="FOOTER__GRID-COL -LEFT">
           <!-- компонент Информация о компании в подвале -->
           <div class="company-info">
             <p class="company-info__name">ООО «ПК ТЕХНОМОНТАЖ»</p>
@@ -233,10 +256,6 @@
           </div>
         </div>
 
-        <div class="FOOTER-GRID__COL -LEFT">
-
-
-        </div>
       </div>
     </div>
   </footer>
