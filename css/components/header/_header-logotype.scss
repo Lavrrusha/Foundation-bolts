@@ -1,12 +1,11 @@
 .header-logotype {
-  display: flex;
-  align-items: center;
   text-align: center;
 
   &__text {
     padding: 0;
     margin: 0;
     font-size: 18px;
+    line-height: 1.4;
     text-transform: uppercase;
     color: var(--yellow);
 
@@ -16,10 +15,16 @@
     }
   }
 
+  &__image {
+    display: flex;
+  }
+
   &__image img {
+
     width: 45px;
+    height: 45px;
     position: relative;
-    left: 193px;
-    top: -75px;
+    left: 200px;
+    top: -85px;
   }
 }

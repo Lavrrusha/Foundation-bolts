@@ -1,6 +1,7 @@
 .header-contacts {
   display: grid;
   grid-template-columns: repeat(2, auto);
+  column-gap: 13px;
 
   &__col {
     display: flex;
@@ -8,17 +9,48 @@
     justify-content: space-between;
   }
 
-  &__icon {}
+  &__icon {
+    width: 44px;
+    height: 44px;
+  }
 
   &__phone {
     font-size: 16px;
     color: var(--white);
     text-decoration: none;
+
+    &:hover {
+      transition: all .4s ease;
+      text-decoration: underline;
+      text-decoration-skip-ink: none;
+      color: var(--yellow);
+    }
   }
 
   &__link {
     font-size: 12px;
     color: var(--white);
+
+    &:hover {
+      transition: all .4s ease;
+      text-decoration: underline;
+      text-decoration-skip-ink: none;
+      color: var(--yellow);
+    }
+  }
+
+  &__delivery {
+    font-size: 16px;
+    color: var(--white);
+    text-decoration: none;
+
+    &:hover {
+      transition: all .4s ease;
+      text-decoration: underline;
+      text-decoration-skip-ink: none;
+      color: var(--yellow);
+    }
+
   }
 
 }
