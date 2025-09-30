@@ -7,6 +7,7 @@ node_modules/
 dist/
 build/
 *.log
+*.css
 .cache/
 *.tmp
 *.DS_Store
