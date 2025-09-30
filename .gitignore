@@ -8,6 +8,7 @@ dist/
 build/
 *.log
 *.css
+*.css.map
 .cache/
 *.tmp
 *.DS_Store
