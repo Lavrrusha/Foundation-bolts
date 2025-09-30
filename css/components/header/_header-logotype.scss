@@ -2,4 +2,22 @@
   display: flex;
   align-items: center;
   text-align: center;
+
+  &__text {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--yellow);
+
+
+    & span {
+      color: var(--white);
+    }
+  }
+
+  &__image img {
+    position: relative;
+    top: -75px;
+  }
 }

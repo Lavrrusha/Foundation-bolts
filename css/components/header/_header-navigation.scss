@@ -1,14 +1,43 @@
 .header-navigation {
+  padding-top: 20px;
+  padding-bottom: 20px;
 
+  &__list {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  &__item {}
 
   &__sub-item {}
 
-  &__list {
-   
+  &__sub-list {
+    display: flex;
   }
 
   &__sub-link {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    color: var(--white);
     text-decoration: none;
+    position: relative;
 
+    &:hover {
+      border: 1px solid var(--yellow);
+
+    }
+
+
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: -12px;
+      left: 0;
+      right: 0;
+      border: 1px solid var(--yellow);
+    }
   }
 }
