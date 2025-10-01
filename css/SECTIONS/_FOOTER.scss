@@ -1,0 +1,22 @@
+.FOOTER {
+  padding-top: 25px;
+  padding-bottom: 12px;
+  background-color: var(--graphite);
+  color: var(--white);
+
+  &__GRID {
+    display: grid;
+    grid-template-columns: repeat(3, 340px);
+    column-gap: 20px;
+  }
+
+  &__GRID-COL {
+    &.-LEFT {
+      text-align: left;
+    }
+
+    &.-RIGHT {
+      text-align: center;
+    }
+  }
+}

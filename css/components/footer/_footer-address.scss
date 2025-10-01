@@ -1,0 +1,26 @@
+.footer-address {
+  font-size: 14px;
+  line-height: 1.4;
+
+  &__label {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2px;
+  }
+
+  &__address {
+    margin-bottom: 2px;
+    font-style: normal;
+  }
+
+  &__inn-kpp {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2px;
+  }
+
+  &__bik {
+    padding: 0;
+    margin: 0;
+  }
+}

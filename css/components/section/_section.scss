@@ -7,7 +7,7 @@
   }
   &.-color-mod {
     background-color: #50BE68;
-    color: #ffffff;
+    color: var(--whited);
 
     .title {
       color: inherit;

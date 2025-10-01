@@ -5,15 +5,18 @@
   &__BODY {
     min-height: 400px;
     position: relative;
+
     @media (max-width: 767px) {
       min-height: initial;
       background-color: #ffe52c;
     }
+
     .wrapper {
       position: relative;
       height: 100%;
     }
   }
+
   &__MAP {
     position: absolute;
     top: 0;
@@ -21,6 +24,7 @@
     bottom: 0;
     left: 0;
     z-index: 0;
+
     @media (max-width: 767px) {
       position: relative;
       top: initial;
@@ -29,6 +33,7 @@
       left: initial;
       height: 300px;
     }
+
     iframe {
       height: 100%;
       width: 100%;
@@ -37,9 +42,10 @@
 
   .contacts-card {
     position: absolute;
-    bottom: -90px;
-    right: 0;
+    top: 385px;
+    right: 22px;
     z-index: 2;
+
     @media (max-width: 1023px) {
       position: absolute;
       bottom: 0;
@@ -47,6 +53,7 @@
       left: 0;
       top: 0;
     }
+
     @media (max-width: 767px) {
       position: relative;
       bottom: initial;
