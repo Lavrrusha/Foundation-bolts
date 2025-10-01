@@ -99,14 +99,13 @@
 
             <!-- компонент Логотип в шапке  -->
             <div class="header-logotype">
-
+              <a class="header-logotype__link" href="#">
+                <span class="header-logotype__image">
+                  <img src="./img/screw-side-view.png" alt="#">
+                </span>
+                <p class="header-logotype__text">Фундаментные болты <span>от производителя</span></p>
+              </a>
             </div>
-            <a class="header-logotype__link" href="#">
-              <span class="header-logotype__image">
-                <img src="./img/screw-side-view.png" alt="#">
-              </span>
-              <p class="header-logotype__text">Фундаментные болты <span>от производителя</span></p>
-            </a>
           </div>
           <div class="HEADER__BOTTOM-COL -RIGHT">
             <!-- компонент Контакт в шапке  -->
@@ -136,7 +135,7 @@
       <div class="wrapper">
         <h1 class="visually-hidden">Производство и продажа фундаментных болтов по ГОСТ и Вашим чертежам в Воронеже</h1>
 
-        <span class="first-screen__text">гост 24379.1-80 (2012)</span>
+        <span>гост 24379.1-80 (2012)</span>
       </div>
     </section>
 
@@ -146,59 +145,100 @@
       <div class="wrapper">
         <h2 class="title">Как мы работаем</h2>
         <p class="subtitle sub -mod">Как наша продукция попадет к Вам</p>
-        <div class="HOW-WE-WORK__GRID">
 
-          <!-- компонент Порядок действий -->
-          <ul class="order-steps">
-            <li class="order-steps__item -border">
-              <div class="order-steps__container">
-                <h2 class="order-steps__title">Заявка</h2>
-                <p class="order-steps__text">Вы оставляете заявку на сайте или по телефону</p>
+        <!-- Порядок действий -->
+        <div class="order-steps">
+          <ol class="order-steps__list list-reset">
+            <li class="order-steps__item">
+
+              <!-- карточка шага  -->
+              <div class="order-steps-card -mod">
+                <div class="order-steps-card__grid">
+                  <div class="order-steps-card__col">
+                    <div class="order-steps-card__icon-wrapper">
+                      <span class="order-steps-card__order-number">01.</span>
+                      <span class="order-steps-card__icon">
+                        <img src="./img/how-we-work/1.png" alt="#">
+                      </span>
+                    </div>
+                  </div>
+                  <div class="order-steps-card__col">
+                    <p class="order-steps-card__title">Заявка</p>
+                    <p class="order-steps-card__text">Вы оставляете заявку на сайте или по телефону</p>
+                  </div>
+                </div>
               </div>
-              <div class="order-steps__col">
-                <span class="order-steps__number -weight">01.
-                  <img class="order-steps__image" src="./img/how-we-work/edit.png" alt="#">
-                </span>
-              </div>
+
             </li>
 
             <li class="order-steps__item">
-              <div class="order-steps__container">
-                <h2 class="order-steps__title">Стоимость</h2>
-                <p class="order-steps__text">В течении 5 минут мы Вам перезвоним и согласует стоимость и детали заказа
-                </p>
+
+              <!-- карточка шага  -->
+              <div class="order-steps-card">
+                <div class="order-steps-card__grid">
+                  <div class="order-steps-card__col">
+                    <div class="order-steps-card__icon-wrapper">
+                      <span class="order-steps-card__order-number">02.</span>
+                      <span class="order-steps-card__icon">
+                        <img src="./img/how-we-work/2.png" alt="#">
+                      </span>
+                    </div>
+                  </div>
+                  <div class="order-steps-card__col">
+                    <p class="order-steps-card__title">Стоимость</p>
+                    <p class="order-steps-card__text">В течении 5 минут мы Вам перезвоним и согласует стоимость и детали заказа</p>
+                  </div>
+                </div>
               </div>
-              <div class="order-steps__col">
-                <span class="order-steps__number">02.
-                  <img class="order-steps__image" src="./img/how-we-work/calculator.png" alt="#">
-                </span>
-              </div>
+
             </li>
 
             <li class="order-steps__item">
-              <div class="order-steps__container">
-                <h2 class="order-steps__title">Договор</h2>
-                <p class="order-steps__text">Мы готовим и высылаем Вам договор на поставку нашей продукции</p>
+
+              <!-- карточка шага  -->
+              <div class="order-steps-card">
+                <div class="order-steps-card__grid">
+                  <div class="order-steps-card__col">
+                    <div class="order-steps-card__icon-wrapper">
+                      <span class="order-steps-card__order-number">03.</span>
+                      <span class="order-steps-card__icon">
+                        <img src="./img/how-we-work/3.png" alt="#">
+                      </span>
+                    </div>
+                  </div>
+                  <div class="order-steps-card__col">
+                    <p class="order-steps-card__title">Договор</p>
+                    <p class="order-steps-card__text">Мы готовим и высылаем Вам договор на поставку нашей продукции</p>
+                  </div>
+                </div>
               </div>
-              <div class="order-steps__col">
-                <span class="order-steps__number">03.
-                  <img class="order-steps__image" src="./img/how-we-work/liner.png" alt="#">
-                </span>
-              </div>
+
             </li>
 
             <li class="order-steps__item">
-              <div class="order-steps__container">
-                <h2 class="order-steps__title">Поставка</h2>
-                <p class="order-steps__text">Доставка груза, подписание акта выполненных работ</p>
+
+              <!-- карточка шага  -->
+              <div class="order-steps-card">
+                <div class="order-steps-card__grid">
+                  <div class="order-steps-card__col">
+                    <div class="order-steps-card__icon-wrapper">
+                      <span class="order-steps-card__order-number">04.</span>
+                      <span class="order-steps-card__icon">
+                        <img src="./img/how-we-work/4.png" alt="#">
+                      </span>
+                    </div>
+                  </div>
+                  <div class="order-steps-card__col">
+                    <p class="order-steps-card__title">Поставка</p>
+                    <p class="order-steps-card__text">Доставка груза, подписание акта выполненных работ</p>
+                  </div>
+                </div>
               </div>
-              <div class="order-steps__col">
-                <span class="order-steps__number">04.
-                  <img class="order-steps__image" src="./img/how-we-work/shipped.png" alt="#">
-                </span>
-              </div>
+
             </li>
-          </ul>
+
+
+          </ol>
         </div>
 
 
@@ -217,7 +257,7 @@
 
     <!-- форма -->
 
-    <section class="CONTACT-US section  -color-mod -padding-mod" id="location">
+    <section class="CONTACT-US section -color-mod -padding-mod" id="location">
       <div class="wrapper">
         <h2 class="title">Как сделать заказ?</h2>
         <p class="subtitle">Очень просто</p>
@@ -275,7 +315,7 @@
       <div class="CONTACTS__MAP">
         <iframe
           src="https://yandex.ru/map-widget/v1/?um=constructor%3Af51daba00d1e477db2d69b3b0300af54f28fa6ffe8cc778aec1eacddafb075bb&amp;source=constructor"
-          width="100%" height="400" frameborder="0"></iframe>
+          width="100%" height="300" frameborder="0"></iframe>
       </div>
 
 

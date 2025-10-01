@@ -6,8 +6,8 @@
     padding-bottom: 32px;
   }
   &.-color-mod {
-    background-color: #50BE68;
-    color: var(--whited);
+    background-color: #50be68;
+    color: var(--white);
 
     .title {
       color: inherit;
@@ -17,8 +17,22 @@
     padding-top: 16px;
     padding-bottom: 16px;
     @media (max-width: 767px) {
-    padding-top: 12px;
-    padding-bottom: 12px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
   }
+  &.-image-bg {
+    background-color: #000;
+    color: #fff;
+    background-image:
+    linear-gradient(to bottom, rgba(30, 30, 30, 0.85), #1e1e1e),
+    url(../img/section/bg-1.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .title {
+      color: inherit;
+    }
   }
 }

@@ -1,0 +1,62 @@
+.order-steps-card {
+  padding: 32px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  @media (max-width: 1023px) {
+      padding: 24px;
+    }
+  &__grid {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    @media (max-width: 1023px) {
+      gap: 24px;
+    }
+
+  }
+  &__title {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 27px;
+    text-transform: uppercase;
+    color: var(--graphite);
+    @media (max-width: 1023px) {
+      margin-bottom: 16px;
+    }
+  }
+  &__icon-wrapper {
+    height: 100%;
+    width: 77px;
+    background-color: #ffe52c;
+    min-height: 150px;
+    position: relative;
+  }
+  &__order-number {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 32px;
+    padding-bottom: 16px;
+    margin-left: -10px;
+  }
+  &__icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 6px;
+    left: -10px;
+  }
+  &.-mod {
+    border: 1px solid #d2d9e1;
+  }
+  &.-mod &__order-number {
+    font-weight: 700;
+  }
+}

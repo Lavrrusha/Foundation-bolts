@@ -1,9 +1,14 @@
 :root {
-    --font-family: 'GothamPro', sans-serif;
+  --font-family: "GothamPro", sans-serif;
 
-    --graphite: #1E1E1E;
-    --white: #ffffff;
-    --yellow: #FFE52C;
+  --graphite: #1e1e1e;
+  --white: #ffffff;
+  --yellow: #ffe52c;
 
-    --header-height: 165px;
+  --header-height: 165px;
+}
+
+@media (max-width: 1023px) {
+}
+@media (max-width: 767px) {
 }
