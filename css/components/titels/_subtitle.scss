@@ -9,6 +9,8 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 16px;
+  // Этот большой отступ был для секций после подзаголовка
+  margin-bottom: 80px;
   &::after {
     content: "";
     width: 76px;
