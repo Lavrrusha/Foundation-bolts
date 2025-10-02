@@ -1,0 +1,34 @@
+.bolts-types {
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px 134px;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+
+  &__title {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    color: var(--yellow);
+  }
+
+  &__text {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: left;
+    color: var(--white);
+  }
+}
