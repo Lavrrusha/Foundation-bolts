@@ -30,6 +30,10 @@
 @use './components/grids/three-column-grid';
 
 
+@use './components/production-info/production-info';
+@use './components/production-info/production-info-card';
+
+
 @use './components/contacts/contacts-card';
 @use './components/contacts/contacts-card-link';
 
