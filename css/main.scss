@@ -2,6 +2,8 @@
 @use './base/root';
 @use './base/global';
 @use './base/support';
+@use './base/button';
+
 
 // компоненты
 @use './components/header/header-contacts';
@@ -17,6 +19,10 @@
 
 
 @use './components/wrapper/wrapper';
+
+
+@use './components/main-page';
+
 
 @use './components/order-steps/order-steps';
 @use './components/order-steps/order-steps-card';
